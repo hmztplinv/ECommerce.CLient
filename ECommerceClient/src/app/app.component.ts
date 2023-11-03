@@ -11,5 +11,3 @@ export class AppComponent {
   title = 'ECommerceClient';
 }
 
-$(document).ready(() => {
-  alert('Hello');});
