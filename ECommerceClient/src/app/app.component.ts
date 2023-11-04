@@ -15,11 +15,14 @@ export class AppComponent {
   {
     // customToastr.message('Hello world!', 'Toastr fun!', ToastrType.Info, ToastrPosition.TopRight, 5);
 
-    customToastr.message('Hello world!', 'Toastr fun!', {
-      type: ToastrType.Success,
-      position: ToastrPosition.TopRight,
-      delay: 5
-    });
+    // customToastr.message('Hello world!', 'Toastr fun!', {
+    //   type: ToastrType.Success,
+    //   position: ToastrPosition.TopRight,
+    //   delay: 5
+    // });
+
+    
   }
 }
 
+// $.get("http://localhost:5281/api/products")
