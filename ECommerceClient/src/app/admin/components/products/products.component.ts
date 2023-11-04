@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent, SpinnerType } from 'src/app/base/base.component';
-import { Product } from 'src/app/contracts/product';
+import { Product } from 'src/app/contracts/Product';
 import { HttpclientService } from 'src/app/services/common/httpclient.service';
 
 @Component({

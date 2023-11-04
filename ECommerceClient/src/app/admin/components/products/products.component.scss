@@ -1,0 +1,25 @@
+.product-create-container {
+    width: 98%;
+    height: 600px;
+    margin: 10px;
+    border: 1px solid #d8d0d0;
+    background-color: #daafaf;
+  }
+.mat-drawer{
+    width: 30%;
+    height: 100%;
+    background-color: #daafaf;
+    border: 1px solid #f3f1f1;
+  }
+  .mat-drawer-content{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(238, 207, 207);
+    border: 1px solid #ececec;
+  }
+  :host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
